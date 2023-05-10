@@ -51,7 +51,7 @@ if __name__ == "__main__":
 
     print("done")
     output = [i.get() for i in results]
-    filtered_results = [i for i in results if i is not None]
+    filtered_results = [i for i in output if i is not None]
 
     # save data to json file
     with open('recipes_raw_pl.json', 'w') as outfile:
