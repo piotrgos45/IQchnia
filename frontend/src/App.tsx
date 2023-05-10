@@ -1,15 +1,13 @@
 import '@fontsource/roboto/400.css';
-import {Button} from "@mui/material";
+import IngredientsSearch from "./IngredientsSearch";
 
 function App(){
     return(
-        <div>
-            <h1 className="text-3xl font-bold underline m-8">
+        <div className="container flex justify-center flex-col items-center mx-auto">
+            <h1 className="text-3xl font-bold underline mb-2 mt-2">
                 IQchnia
             </h1>
-            <Button variant="contained" color="error" sx={{
-                marginTop: '10px'
-            }}>IQChnia Entry</Button>
+            <IngredientsSearch/>
         </div>
     );
 }
