@@ -7,28 +7,10 @@
 # https://cloud.google.com/translate/docs/basic/translating-text#translate_translate_text-python
 
 import json
-import os
-import googletrans
 from googletrans import Translator
-from multiprocessing.dummy import Pool as ThreadPool
-from multiprocessing import Manager
+from multiprocessing import Pool as ThreadPool
 
 translator = Translator()
-
-# load json file
-with open('recipes_raw_en.json') as json_file:
-    all_recipes = json.load(json_file)
-recipies_list = [elem for i, (key, elem) in enumerate(all_recipes.items())]
-
-# init queue thats shared beetween workers
-# To mi niestety nie zadziałało. Chcialem miec status przetłumaczonych przepisów, ale nie wiem jak to zrobić.
-# manager = Manager()
-# recipes_queue = manager.Queue(recipies_list)
-# for elem in recipies_list:
-#     recipes_queue.put_nowait(elem)
-
-# translate data multithread
-pool = ThreadPool(8)
 
 # worker
 def request(recipe):
@@ -44,16 +26,33 @@ def request(recipe):
         return None
     return recipe
 
-# try:
-results = pool.map_async(request, recipies_list)
-# except Exception as e:
-#     print(e)
+def progress(res):
+    print('.', end='', flush=True)
 
-pool.close()
-pool.join()
+if __name__ == "__main__":
+    # load json file
+    with open('recipes_raw_en.json') as json_file:
+        all_recipes = json.load(json_file)
+    recipies_list = [elem for i, (key, elem) in enumerate(all_recipes.items())]
 
-filtered_results = filtered = [i for i in results.get() if i is not None]
+    # init queue thats shared beetween workers
+    # To mi niestety nie zadziałało. Chcialem miec status przetłumaczonych przepisów, ale nie wiem jak to zrobić.
+    # manager = Manager()
+    # recipes_queue = manager.Queue(recipies_list)
+    # for elem in recipies_list:
+    #     recipes_queue.put_nowait(elem)
 
-# save data to json file
-with open('recipes_raw_pl.json', 'w') as outfile:
-    json.dump(filtered_results, outfile, ensure_ascii=False, indent=4)
+    # translate data multithread
+    with ThreadPool() as pool:
+        results = [pool.apply_async(request, args=(recipe,), callback=progress) for recipe in recipies_list]
+
+        pool.close()
+        pool.join()
+
+    print("done")
+    output = [i.get() for i in results]
+    filtered_results = [i for i in results if i is not None]
+
+    # save data to json file
+    with open('recipes_raw_pl.json', 'w') as outfile:
+        json.dump(filtered_results, outfile, ensure_ascii=False, indent=4)
