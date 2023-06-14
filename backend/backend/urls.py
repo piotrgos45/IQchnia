@@ -16,7 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from backend.views import recipes, ingredients
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('api/ingredients/', ingredients),
+    path('api/recipes/', recipes),
+    path('admin/', admin.site.urls)
 ]
