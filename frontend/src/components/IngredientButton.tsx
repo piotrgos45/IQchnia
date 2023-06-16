@@ -12,11 +12,11 @@ const IngredientButton: React.FC<IIngredientButton> = ({ active, ingredient, onC
   }
 
   const buttonStyles = () => {
-    return active ? 'bg-sky-200 border-slate-600' : 'bg-white border-slate-600'
+    return active ? 'bg-sky-200' : 'bg-white'
   }
 
   return (
-    <button className={`text-slate-600 border-[1px] m-1 px-2 py-1 rounded-full text-sm ${buttonStyles()}`} onClick={() => onClick(ingredient.id)}>
+    <button className={`text-slate-600 border-slate-600 border-[1px] m-1 px-2 py-1 rounded-full text-sm ${buttonStyles()}`} onClick={() => onClick(ingredient.id)}>
       {capitalizeIngredient(ingredient.name)}
     </button>
   )

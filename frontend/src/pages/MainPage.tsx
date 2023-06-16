@@ -7,12 +7,17 @@ import { useRecipies } from 'src/hooks/useRecipies'
 
 
 const MainPage = () => {
-  const { ingredients, toggleIngredients, selectedIngredients } = useIngredients()
+  const { ingredients, toggleIngredients, selectedIngredients, handleSearch, ingredientsList } = useIngredients()
   const {} = useRecipies()
 
   return (
     <div className='grid grid-cols-4 gap-4'>
-      <SideBar ingredients={ingredients} toggleIngredients={toggleIngredients} selectedIngredients={selectedIngredients}/>
+      <SideBar 
+        ingredients={ingredientsList()} 
+        toggleIngredients={toggleIngredients} 
+        selectedIngredients={selectedIngredients} 
+        handleSearch={handleSearch}
+      />
       <RecipiesList />
     </div>
   )

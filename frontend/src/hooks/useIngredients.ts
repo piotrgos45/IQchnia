@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect, useCallback } from "react"
 import{ getAllIngredients } from '../api/ingredients'
 
 import { Ingredient } from "src/types"
@@ -7,6 +7,8 @@ export const useIngredients = () => {
   const [loadingIngredients, setLoadingIngredients] = useState<boolean>(false)
   const [ingredients, setIngredients] = useState<Ingredient[]>([])
   const [selectedIngredients, setSelectedIngredients] = useState<number[]>([])
+
+  const [searchValue, setSearchValue] = useState('')
 
   useEffect(() => {
     handleGetAllIngredients()
@@ -27,7 +29,18 @@ export const useIngredients = () => {
     } else {
       setSelectedIngredients((oldArray) => [...oldArray, id])
     }
-    
+  }
+
+  const handleSearch = (value: string) => {
+    setSearchValue(value)
+  }
+
+  const ingredientsList = () => {
+    if(searchValue === '') {
+      return ingredients
+    } else {
+      return ingredients.filter((ingredient) => ingredient.name.includes(searchValue))
+    }
   }
 
   return {
@@ -35,6 +48,8 @@ export const useIngredients = () => {
     handleGetAllIngredients,
     ingredients,
     loadingIngredients,
-    selectedIngredients
+    selectedIngredients,
+    handleSearch,
+    ingredientsList
   }
 }
