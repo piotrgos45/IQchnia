@@ -37,20 +37,20 @@ Biblioteka Komponentow: [MUI](https://mui.com/)
 Uruchomienie frontu w trybie deweloperskim
 
 ```bash
-cd IQchnia
+cd frontend
 yarn dev
 ```
 Budowanie do plików statycznych
 
 ```bash
-cd IQchnia
+cd frontend
 yarn build
 ```
 
 ## Backend
 
 Uruchamianie serwera. Serwer uruchomi się lokalnie na porcie 8000.
-Na froncie zawsze odnosimy się do lokalhosta. Nie ma bawimy się w CORSy i zmiany adresów.
+Na froncie zawsze odnosimy się do localhost. Nie ma bawimy się w CORSy i zmiany adresów.
 
 ```bash
 cd backend

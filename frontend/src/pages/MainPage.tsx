@@ -1,14 +1,14 @@
 import SideBar from 'src/components/SideBar'
-import RecipiesList from 'src/components/RecipiesList'
+import RecipesList from 'src/components/RecipesList'
 
 import { useIngredients } from "src/hooks/useIngredients"
-import { useRecipies } from 'src/hooks/useRecipies'
+import { useRecipies } from 'src/hooks/useRecipes'
 
 
 
 const MainPage = () => {
   const { ingredients, toggleIngredients, selectedIngredients, handleSearch, ingredientsList } = useIngredients()
-  const {} = useRecipies()
+  const {randomRecipes, randomRecipesLoading} = useRecipies()
 
   return (
     <div className='grid grid-cols-4 gap-4'>
@@ -18,7 +18,9 @@ const MainPage = () => {
         selectedIngredients={selectedIngredients} 
         handleSearch={handleSearch}
       />
-      <RecipiesList />
+      <RecipesList 
+        recipesList={randomRecipes}
+      />
     </div>
   )
 }
