@@ -8,7 +8,7 @@ interface IRecipesList {
 
 const RecipiesList:React.FC<IRecipesList> = ({recipesList}) => {
   return (
-    <div className='col-span-3 p-6 grid gap-10 grid-cols-4'> 
+    <div className='col-span-3 row-span-3 p-6 grid gap-10 grid-cols-4 grid-rows-4'> 
       {
         recipesList.map((recipe) => 
           <RecipeElement key={recipe.id} recipe={recipe}/>
