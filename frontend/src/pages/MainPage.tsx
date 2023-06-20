@@ -7,8 +7,8 @@ import { useRecipies } from 'src/hooks/useRecipes'
 
 
 const MainPage = () => {
-  const { ingredients, toggleIngredients, selectedIngredients, handleSearch, ingredientsList } = useIngredients()
-  const {randomRecipes, randomRecipesLoading} = useRecipies()
+  const { toggleIngredients, selectedIngredients, handleSearch, ingredientsList } = useIngredients()
+  const { recipeList} = useRecipies(selectedIngredients)
 
   return (
     <div className='grid grid-cols-4 gap-4'>
@@ -19,7 +19,7 @@ const MainPage = () => {
         handleSearch={handleSearch}
       />
       <RecipesList 
-        recipesList={randomRecipes}
+        recipesList={recipeList()}
       />
     </div>
   )

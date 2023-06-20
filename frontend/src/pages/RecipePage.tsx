@@ -1,13 +1,21 @@
+import { useEffect } from 'react'
 import { useParams } from 'react-router-dom';
 
+import { useRecipies } from 'src/hooks/useRecipes';
+
 const RecipePage = () => {
-  // const location = useLocation()
+  const { getSingleRecipie, singleRecipie } = useRecipies()
   const { id } = useParams()
 
-  console.log(id);
+  useEffect(() => {
+    if(id) { 
+      getSingleRecipie(id)
+    }
+    
+  }, [])
 
   return (
-    <span>RecipePage number {id}</span>
+    <span>RecipePage number {singleRecipie?.name}</span>
   )
 }
 

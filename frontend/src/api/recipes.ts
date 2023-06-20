@@ -9,6 +9,13 @@ export const getAllRecipes = () => {
     .then((res)=>res.data)
 }
 
-export const getRecipeById = () => {}
+export const getRecipeById = (id: string) => {
+  return apiBase.get(`/api/recipes/?id=${id}`)
+    .then((res)=>res.data)
+}
 
-export const getRecipeByIngredientIds = () => {}
+export const getRecipeByIngredientIds = (id: number[]) => {
+  const ids = id.map((id) => `ingredients[]=${id}`).join('&')
+  return apiBase.get(`/api/recipes/?${ids}`)
+    .then((res) => res.data)
+}
