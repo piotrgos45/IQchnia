@@ -31,10 +31,6 @@ export const useRecipies = (selectedIngredients: number[] = []) => {
     setSingleRecipie(res.recipe)
   }
 
-  useEffect(() => {
-    getRecipeByIngredient(selectedIngredients)
-  }, [selectedIngredients])
-
   const getRecipeByIngredient = async (id: number[]) => {
     setRecipesLoading(true)
     const res: {recipes: Recipe[]} = await getRecipeByIngredientIds(id) 
@@ -63,7 +59,8 @@ export const useRecipies = (selectedIngredients: number[] = []) => {
     randomRecipes,
     recipeListLoading,
     recipeList,
-    singleRecipie
+    singleRecipie,
+    getRecipeByIngredient
   }
 }
 
