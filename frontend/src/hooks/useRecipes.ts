@@ -12,14 +12,16 @@ export const useRecipies = (selectedIngredients: number[] = []) => {
   const [singleRecipie, setSingleRecipie] = useState<Recipe | undefined>(undefined)
 
   const [recipes, setRecipes] = useState<Recipe[]>([])
+  const [recipesLoading, setRecipesLoading] = useState<boolean>(false)
 
   useEffect(() => {
     handleGetRandomRecipies()
   }, [])
 
   const handleGetRandomRecipies = async () => {
-    const res: {recipes: Recipe[]} = await getAllRecipes() 
     setRandomRecipiesLoading(true)
+    const res: {recipes: Recipe[]} = await getAllRecipes() 
+    setRandomRecipiesLoading(false)
 
     setRandomRecipies(res.recipes)
   }
@@ -34,7 +36,9 @@ export const useRecipies = (selectedIngredients: number[] = []) => {
   }, [selectedIngredients])
 
   const getRecipeByIngredient = async (id: number[]) => {
+    setRecipesLoading(true)
     const res: {recipes: Recipe[]} = await getRecipeByIngredientIds(id) 
+    setRecipesLoading(false)
 
     setRecipes(res.recipes)
   }
@@ -47,11 +51,17 @@ export const useRecipies = (selectedIngredients: number[] = []) => {
     }
   }
 
+  const recipeListLoading = () => {
+    return randomRecipesLoading || recipesLoading
+  }
+
+  console.log(recipeListLoading())
+
   return {
     getRecipeById,
     getSingleRecipie,
     randomRecipes,
-    randomRecipesLoading,
+    recipeListLoading,
     recipeList,
     singleRecipie
   }

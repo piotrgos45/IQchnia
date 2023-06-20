@@ -8,7 +8,7 @@ import { useRecipies } from 'src/hooks/useRecipes'
 
 const MainPage = () => {
   const { toggleIngredients, selectedIngredients, handleSearch, ingredientsList } = useIngredients()
-  const { recipeList} = useRecipies(selectedIngredients)
+  const { recipeList, recipeListLoading} = useRecipies(selectedIngredients)
 
   return (
     <div className='grid grid-cols-4 gap-4'>
@@ -20,6 +20,7 @@ const MainPage = () => {
       />
       <RecipesList 
         recipesList={recipeList()}
+        loadingState={recipeListLoading()}
       />
     </div>
   )
