@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.urls import path
 from backend.views import recipes, ingredients
 
+
 urlpatterns = [
     path('api/ingredients/', ingredients),
     path('api/recipes/', recipes),

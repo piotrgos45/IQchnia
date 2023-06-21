@@ -3,6 +3,8 @@ from django.core.management.base import BaseCommand
 from django.db import transaction
 import json
 from tqdm import tqdm
+import os
+from django.conf import settings
 
 
 class Command(BaseCommand):
@@ -32,6 +34,10 @@ class Command(BaseCommand):
                         protein=recipe['protein'],
                         instructions=recipe['instructions']
                     )
+
+                    if recipe['photo']:
+                        recipe_obj.image = os.path.join(settings.STATIC_URL, os.path.basename(recipe['photo']))
+                        recipe_obj.save()
 
                     for ingredient in set(recipe['ingredients']):
                         RecipeIngredient.objects.create(

@@ -84,6 +84,14 @@ class Recipe(models.Model):
         verbose_name='Tagi'
     )
 
+    image = models.ImageField(
+        verbose_name='Zdjęcie',
+        upload_to='food_images/',
+        null=True,
+        blank=True,
+        default=None
+    )
+
     def __str__(self):
         return self.name
 

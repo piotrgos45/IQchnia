@@ -34,7 +34,8 @@ def recipe_to_dict(recipe: Recipe) -> dict:
         'protein': recipe.protein,
         'instructions': recipe.instructions,
         'ingredients': [ingredient.name for ingredient in recipe.recipeingredient_set.all()],
-        'tags': [tag.name for tag in recipe.tags.all()]
+        'tags': [tag.name for tag in recipe.tags.all()],
+        'image': recipe.image.url if recipe.image else None
     }
 
 
@@ -57,7 +58,7 @@ def recipes(request: HttpRequest) -> JsonResponse:
 
         recipes = recipes.distinct()
     else:
-        recipes = Recipe.objects.order_by('?')[:10]
+        recipes = Recipe.objects.exclude(image__exact='').order_by('?')[:10]
 
     return JsonResponse(
         {

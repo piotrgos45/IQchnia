@@ -122,8 +122,6 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 
 STATIC_URL = 'assets/'
 
-print(BASE_DIR / "food_images")
-
 STATICFILES_DIRS = [
     BASE_DIR / "food_images",
 ]
