@@ -26,7 +26,7 @@ const RecipiesList:React.FC<IRecipesList> = ({recipesList, loadingState}) => {
 
   return (
       !loadingState ? (
-        <div className='col-span-3 row-span-3 p-6 grid gap-10 grid-cols-4 grid-rows-4'> 
+        <div className='md:grid-cols-4 grid-cols-1 col-span-3 row-span-3 p-6 grid gap-10 grid-rows-4'>
           {
             !loadingState ? (
               recipesList.map((recipe) => 

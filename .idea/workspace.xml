@@ -5,125 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caeb432f-52c3-43a9-a6de-dc99540a1025" name="Changes" comment="Fix translate.py 2">
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id113_melomakarona-honey-cookies-with-walnuts-1705310-hero-05-10faecf8c00c4bc0af5261206c9fdf7c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id114_crete-cheese-pies--about-56a45bd15f9b58b7d0d69393.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id116_1408-3-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id117_KQED-OG-Image@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id131_ml910v3_1099_homemade_beef_stock_hd-5ab2c44cd9294c55baa5b34937e9ac7c.jpgitoklkM9c--g" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id132_french-onion-soup-c26257c4-0221_hz_0-afea634d979348f49147afd6b925f72f.jpgitokHZRZP5Nd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id133_qc_0299_ckcardsoup_vert-ef9cb8ef03874bb98004d2d1d73c7486.jpgitok6bqhATt-" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id134_med103553_0308_soup_sand_vert-920066d4a3cf4c14a240a59519de6e24.jpgitok_rnxV3dG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id136_a100275_1103-broccoli-soup-with-cheddar-toasts_horiz-f375bfa4a7f04300bf7083f677d5790c.jpgitokCqlvd5om" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id137_edf_1105_shrimpsoup_vert-9a7a2baee6ed42f7bab98fe098c4058e.jpgitok6XHJJ5i1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id139_bas_feb06_chickpea_xl-b988c831e5604e71b1ae1b4819c01dd0.jpgitok_Xb5vBFd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id140_LA102437_1106_twmsoup_l_xl-cce9d16e448b40f4affd2bbea0380d7d.jpgitokNNC8F-z7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id141_LA102437_1106_twmsoup_l_xl-cce9d16e448b40f4affd2bbea0380d7d.jpgitokNNC8F-z7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id142_mla10275151soup_horiz-d764229497ed4ffda8664db1d4f85a46.jpgitokMDnMtgPL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id144_0106_msl_light01_vert-3e3648faf9f24108b92311b4a4db24c9.jpgitok0Xc9CEWz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id145_edf_0204_chococheesecake_vert-183fb59675784f0898724794c848b355.jpgitok-eoASpgJ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id146_0106_msl_light06_vert-afac62149fcc417f85e2e2bb141511f8.jpgitokGZvi9O6i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id167_ed103954b_0908_herb_salmon_vert-1999b611f50e437db2c8ad52d19b6288.jpgitokPpW0FEYt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id244_peppermint-crunch-bark_0919.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id245_Wedding-Cookies-Hero_0333.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id259_stew-m039-9780307954565-art-r1_horiz-036deb924afe4b6d94bbfe807e74d1a4.jpgitokLtNX3TwW" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id277_Kartoffelpuffer2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id278___opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2014__07__20140723-Sunday-Supper-Brat-Beer-Cheese-Soup-Jennifer-Olvera-f977faaf8b5c42f8a5c7cb196239f2d1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id281_97752-lg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id286_med104078_1008_peppers_vert-94249b54dfbc4cdfb48c26fe1d87c183.jpgitokS6GUkbPz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id287_sides_00816_xl-24d103a9030f4dd19eed3a9cb99cb76d.jpgitokkC9wu3w7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id291_ed103160_1007_bakedziti_horiz-4d8828203e9d4577b198c51493b05a70.jpgitokFpLtf3fX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id292_panmilletbread.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id293_ed102471_1106_chocopump_s_vert-2bb0406ef5594fa6aa7de98e24bf062b.jpgitokUMUeMHzA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id294_ShortbreadW-SaltedCaramel-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id300_mh_1106_parfait_horiz-96bd361c7b1e4915993edbcae6b1c688.jpgitokC0rhzvNz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id301_golden_granola_1_hd-826ddd79f7c04912b0bff26dd9f02d0b.jpgitokKHhvxO1D" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id311___opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2008__08__shrimp-fried-rice-horiz-a-1600-1d45831476cb4e89a385b58b716bca26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id313_la102363_1106_beans_vert-d491d215eead4c688bfc79a4fd9c85f4.jpgitokNujbbmfq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id325_seven-layer-bars-23-250.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id328_pickle_istock_660.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id329_baked-grits-eggs-027-med109951_horiz-383eee899ff8409e8a567cbd22b25004.jpgitokFGKRZJ6T" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id331_med103954_0908_egg_sandw_vert-cc435f1aaea24fd8a82e00a25951ff90.jpgitokTQlPz0pA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id332_Lemony-walnut-chickpea-salad-with-goats-cheese-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id335_med106601_0411_bag_shrimp_pastaq_vert-a2c07b1573e84f5a9efe7d406d66f2be.jpgitokzAvIBd9d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id336_shrimp-orzo-med108373_horiz-cd30561e62dd4a08964c9b8a53044af9.jpgitok_JgejBNo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id337_msledf_1004_salad_vert-ff4443bc60f5447cb5fb9279d7c45dee.jpgitokHt973nLV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id338_med103596_0408_pablano_vert-0acedd5f92da47ceac049e1daf5e9b86.jpgitok1zpOUTFq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id339_med105388_0110_hyt_blackbean_horiz-f8d82daf1deb477c9e5fb54fab00a341.jpgitok1MjNnn4E" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id340_2124_recipe_irishcocktails_xl-1f24a187add44e088effd7cfa9d529d3.jpgitokywuXIzak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id341_english-muffin-0903-mea100236_vert-8a5db67277404f3cae4a62c1467b5015.jpgitokiymhHId3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id347_chopped-salad-bleu-cheese-vinaigrette-2ddjwgbgayd8ufjgyqt3p0-0821_hz-10faedcd148149149dd8adb8d56ba501.jpgitokk4fPODRM" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id348_MarthaMigSocial-fbbf086f354949b18a1eadc15a84060e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id351_Almond-Cloud-Cookie_0598_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id363_mushrag_final5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id364_mushroom-ragout-762-md110558_horiz-5b794347af974ef4a33e6588492c2130.jpgitok_fy4jsUT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id370_21712_sfs-latin-american-style-flan-10" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id371_mla104012_1108_greenappsand_vert-aee01e998ca742c48e246fd06d1608d1.jpgitokGd7Kcm1L" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id374_mla102409_0407-artichoke-risotto-with-mascarpone-lemon-and-thyme_horiz-282ad6c5c5d144eab15dc34b757e6f7c.jpgitokQdIlbYRK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id377_888041-lg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id378_med104339_0109_medit_salad_vert-5a34834da4cd4d94b0993fcd706943e4.jpgitoknEA3dCiE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id381_4843-3-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id382_DSC_0825_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id383_CandiedCitrus_RECIPE_080420_37712.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id384_maple-shortbread-sandwich-cookies.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id389_21093_sfs-spanish-chilled-almond-garlic-soup-6-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id394_vegetable-tofu-pad-thai-2-med107845_vert-651c77dc5de24e82808a52add27b92e4.jpgitokig1mN9nC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id396_salmon_jun05_3_xl-69fdab9da5e6468cb3e0367d67f31ed2.jpgitok5ELsyjPW" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id397_8644378-d6b2c3ab4d174d84b32c6e527f37267c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id398_Brownie-in-a-Mug-Recipe-1-1200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id406_Candied-Pecans-850x1043.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id421_med104078_1008_hot_cereal_vert-3391eee19b5244b4b1b2ee2704a7b3a8.jpgitoklCJ8GlEC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id422_ba102038_0506_omlette_vert-f8cf7abfb545442da058e53aff4543d8.jpgitokW9ac3oCt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id427_pasta-tomato-mushroom-sauce_0-2000-cb44c5cfa3344b73a24264db716d3729.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id430_avocado-breakfast-ideas-2000-65cdf6c35b704c308916da758494e176.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id434_baked-english-muffins.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id437_med106243_1010_hea_oatmeal_egg_vert_0_horiz-e6b3d73459a24cc79d608d7c0eb24758.jpgitokx_C_4lyK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id445_1143_recipe_salmon_hd-255dccfd22a84d3db1bdd6e6d4c68323.jpgitoktIO8ySEH" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id446_0505_edf_salmonnicoise_vert-f92010c3797448ae8e10b4977300de47.jpgitokOu46DSS-" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id447_baked-gnocchi-with-prosciutto-spinach.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id448_Shrimp_Scampi_Recipe-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id449_adult_lunchable_salami_veggies_cream_cheese_recipe-1-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id452_bacon-pan-103121803-horiz-0722-9ea52456c2664c4dab19596068309ae8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id453_WGC-Pumpkin-Bread-copy-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id466_WGC-Frittatas-copy1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id467_med103315_0108_couscous_vert-9c3cc789fec14d9b9f68f5fff571a44a.jpgitokiDCq2U0e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id473_restaurant-style-easy-indian-butter-chicken-slow-cooker-chefdehome-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id479_Facebook_LinkShare_DefaultImage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id481_1228358-lg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id483_mexican-caprese-12.jpg?fit=600%2C405&amp;ssl=1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id484_Facebook_LinkShare_DefaultImage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id486_6047-3-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id491_Onigirazu-IG.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id492_msledf_0503_humis_sand_vert-438426f142794e4580fb3674fd8556a8.jpgitokjsdz1ps_" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id506_5b9342846e6167900200a02ef333f8f6_84df82d4-5f72-40e3-9edb-750f7997f02a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id522_vadouvan-indian-spice-blend.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id528_airfryFalafel_FI-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id529_DSC04926-e1498849444830.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id531_12COOKING-MISO-DRESSING1-videoSixteenByNineJumbo1600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id536_very-vanilla-cupcakes-with-easy-vanilla-frosting.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id53_og-default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id551_Brownie_20170522%20WEB10231.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id561_Dark-Chocolate-Raspberry-Breakfast-Bake2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id562_Oatmeal-Cookie-Dough-Breakfast-Bake7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id570_Mug-Coffee-Cake-Recipe-2-of-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id573_red-cabbage-okonomiyaki-fritters-4878be68.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id577_Gluten_Free_Pasta-Salad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id578_boursin-broccoli-cheese-soup.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id579_Nut-Free-Energy-Balls.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id580_Best-Broccoli-Rice-Casserole.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id585_Pear-Claufouti-1-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id588_best-roasted-garlic-recipe-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id589_best-hummus-recipe-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id591_Stacked_arugula_goat_cheese_sandwich.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id593_Best_sweet_potato_bowl.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id597_Veggie-Tortilla-Roll-Ups-Recipe-Culinary-Hill-HR-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id601_maxresdefault.jpg?meta=og:image" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id602_Inspired_20220829_Hero_Bold-and-Bento.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id603_JT-Chocolate-Chip-Cookies-threeByTwoMediumAt2X.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id605_Oden-Japanese-Fish-Cake-Stew-0925-I-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/assets/id608_Gyoza-Bento.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/extract_photos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/recipes_pl_with_photos.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/RecipesList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/RecipesList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/SideBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/SideBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/MainPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/MainPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tailwind.config.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tailwind.config.cjs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,23 +38,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/skrzyniu/Projects/IQchnia",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.tailwindcss",
-    "ts.external.directory.path": "/home/skrzyniu/Projects/IQchnia/frontend/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/skrzyniu/Projects/IQchnia&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.tailwindcss&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Studia\\6semestr\\ipz\\IQchnia\\frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -249,10 +135,5 @@
     <MESSAGE value="Fix translate.py" />
     <MESSAGE value="Fix translate.py 2" />
     <option name="LAST_COMMIT_MESSAGE" value="Fix translate.py 2" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/IQchnia$extract_photos.coverage" NAME="extract_photos Coverage Results" MODIFIED="1683745385322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/IQchnia$translate.coverage" NAME="translate Coverage Results" MODIFIED="1683743002862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/IQchnia$filter.coverage" NAME="filter Coverage Results" MODIFIED="1683743280954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
 </project>

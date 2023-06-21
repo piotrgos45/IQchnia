@@ -8,7 +8,11 @@ module.exports = {
     fontFamily: {
       'roboto': ['Roboto', 'sans-serif']
     },
-    extend: {},
+    extend: {
+      screens: {
+        md: "768px",
+      }
+    },
   },
   plugins: [],
 }
