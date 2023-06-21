@@ -51,8 +51,6 @@ export const useRecipies = (selectedIngredients: number[] = []) => {
     return randomRecipesLoading || recipesLoading
   }
 
-  console.log(recipeListLoading())
-
   return {
     getRecipeById,
     getSingleRecipie,

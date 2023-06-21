@@ -21,7 +21,7 @@ const SideBar: React.FC<ISideBar> = ({ toggleIngredients, ingredients, selectedI
     <div className="flex flex-col items-center py-8 px-3 bg-green-100 h-screen">
       <div className="py-2">
         <h1 className="text-slate-800 text-3xl text-center">iQuchnia</h1>
-        <h3 className="text-center text-slate-600 pt-2">Twoja Inteligentna ksiązka Kucharska</h3>
+        <h3 className="text-center text-slate-600 pt-2">Twoja Inteligentna ksiązka kucharska</h3>
       </div>
       <div>
         <IngredientsSearch 
