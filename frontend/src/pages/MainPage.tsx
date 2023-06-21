@@ -16,7 +16,10 @@ const MainPage = () => {
   }, [selectedIngredients])
 
   return (
-    <div className='md:flex sm:flex lg:flex flex-col gap-4 font-roboto'>
+    <div className='
+      flex flex-col gap-4 font-roboto 
+      md:grid md:grid-cols-4
+    '>
       <SideBar 
         ingredients={ingredientsList()}
         toggleIngredients={toggleIngredients} 

@@ -10,23 +10,12 @@ interface IRecipesList {
 }
 
 const RecipiesList:React.FC<IRecipesList> = ({recipesList, loadingState}) => {
-  // return (
-  //   <div className='col-span-3 row-span-3 p-6 grid gap-10 grid-cols-4 grid-rows-4'> 
-  //     {
-  //       !loadingState ? (
-  //         recipesList.map((recipe) => 
-  //         <RecipeElement key={recipe.id} recipe={recipe}/>
-  //         )
-  //       ) : (
-  //         <Loading />
-  //       )
-  //     }
-  //   </div>
-  // )
-
   return (
       !loadingState ? (
-        <div className='md:grid-cols-4 grid-cols-1 col-span-3 row-span-3 p-6 grid gap-10 grid-rows-4'>
+        <div className='
+          md:grid md:grid-cols-4 md:grid-rows-4 md:col-span-3 md:row-span-3 md:gap-10 
+          grid-cols-1 col-span-3 row-span-3 p-6 grid gap-10 grid-rows-4
+        '>
           {
             !loadingState ? (
               recipesList.map((recipe) => 
