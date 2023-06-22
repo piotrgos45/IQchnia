@@ -22,4 +22,5 @@ export type Recipe = {
   instructions: string,
   ingredients: string[],
   tags: string[]
+  image: string;
 }

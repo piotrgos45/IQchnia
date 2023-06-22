@@ -9,14 +9,13 @@ import { useRecipies } from 'src/hooks/useRecipes';
 const RecipePage = () => {
   const { getSingleRecipie, singleRecipie } = useRecipies()
   const { id } = useParams()
-
+  const imagePath = "http://localhost:8000" + singleRecipie?.image.toString()
   useEffect(() => {
     if(id) { 
       getSingleRecipie(id)
     }
     
   }, [])
-
   return (
     <div className='flex sm bg-green-100 max-h-max m-20 p-10 flex-col space-y-10 rounded-lg items-center font-roboto'>
         <span className='flex flex-col items-center'>
@@ -31,7 +30,7 @@ const RecipePage = () => {
             {singleRecipie?.carbs ? 'W:' + singleRecipie?.carbs + ' ' : null} 
             {singleRecipie?.protein ? 'B:' + singleRecipie?.protein + ' '  : null}
           </span>
-          {/* add img here */}
+          {singleRecipie?.image ? <img className='max-w-lg' src={imagePath} alt='Zdjęcie niedostępne'></img> : null}
         </span>
         <span><b>Składniki:</b> {singleRecipie?.ingredients}</span>
         <span><b>Instrukcje:</b> {singleRecipie?.instructions}</span>
