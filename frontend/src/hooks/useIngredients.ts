@@ -1,9 +1,11 @@
-import { useState, useEffect, useCallback } from "react"
+import { useState, useEffect } from "react"
+
 import{ getAllIngredients } from '../api/ingredients'
 
 import { Ingredient } from "src/types"
 
 export const useIngredients = () => {
+
   const [loadingIngredients, setLoadingIngredients] = useState<boolean>(false)
   const [ingredients, setIngredients] = useState<Ingredient[]>([])
   const [selectedIngredients, setSelectedIngredients] = useState<number[]>([])
@@ -44,6 +46,7 @@ export const useIngredients = () => {
   }
 
   return {
+    setSelectedIngredients,
     toggleIngredients,
     handleGetAllIngredients,
     ingredients,

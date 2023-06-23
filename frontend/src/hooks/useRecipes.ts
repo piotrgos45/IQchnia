@@ -14,10 +14,6 @@ export const useRecipies = (selectedIngredients: number[] = []) => {
   const [recipes, setRecipes] = useState<Recipe[]>([])
   const [recipesLoading, setRecipesLoading] = useState<boolean>(false)
 
-  useEffect(() => {
-    handleGetRandomRecipies()
-  }, [])
-
   const handleGetRandomRecipies = async () => {
     setRandomRecipiesLoading(true)
     const res: {recipes: Recipe[]} = await getAllRecipes() 
@@ -54,6 +50,7 @@ export const useRecipies = (selectedIngredients: number[] = []) => {
   return {
     getRecipeById,
     getSingleRecipie,
+    handleGetRandomRecipies,
     randomRecipes,
     recipeListLoading,
     recipeList,

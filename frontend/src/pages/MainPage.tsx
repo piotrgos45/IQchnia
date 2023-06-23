@@ -1,4 +1,6 @@
 import { useEffect } from 'react'
+import { useSearchParams } from 'react-router-dom'
+
 import SideBar from 'src/components/SideBar'
 import RecipesList from 'src/components/RecipesList'
 
@@ -8,12 +10,27 @@ import { useRecipies } from 'src/hooks/useRecipes'
 
 
 const MainPage = () => {
-  const { toggleIngredients, selectedIngredients, handleSearch, ingredientsList } = useIngredients()
-  const { recipeList, recipeListLoading, getRecipeByIngredient} = useRecipies()
+  const [searchParams, setSearchParams] = useSearchParams();
+  const { toggleIngredients, selectedIngredients, handleSearch, ingredientsList, setSelectedIngredients } = useIngredients()
+  const { recipeList, recipeListLoading, getRecipeByIngredient, handleGetRandomRecipies} = useRecipies()
 
   useEffect(() => {
-    getRecipeByIngredient(selectedIngredients)
+    if (selectedIngredients.length > 0) {
+      getRecipeByIngredient(selectedIngredients)
+      setSearchParams({['ingredient']: selectedIngredients.toString()})
+    }
   }, [selectedIngredients])
+
+  useEffect(() => {
+    const ingredientsParams = searchParams.get('ingredient')
+    if(ingredientsParams === null) {
+      handleGetRandomRecipies()
+    } else {
+      const ingNumber = ingredientsParams.split(',')?.map((num) => Number(num))
+      setSelectedIngredients(ingNumber)
+    }
+  }, [])
+
 
   return (
     <div className='
